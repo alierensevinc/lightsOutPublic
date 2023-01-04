@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">lightsOut</string>
+    <string name="title_activity_main">lightsOut</string>
+    <string name="package_name">com.alierensevinc.lightsout</string>
+    <string name="custom_url_scheme">com.alierensevinc.lightsout</string>
+</resources>

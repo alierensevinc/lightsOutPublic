@@ -1,0 +1,7 @@
+{
+  "name": "lightsOut",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}

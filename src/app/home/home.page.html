@@ -1,0 +1,22 @@
+<ion-content (click)="triggerGame()" [fullscreen]="true">
+  <div class="container">
+    <div class="sky"></div>
+    <div class="led-box">
+      <div class="line"></div>
+      <div *ngFor="let light of lights" class="led-container">
+        <div [ngClass]="light.isOn ? 'led-red' : 'led-black'"></div>
+      </div>
+    </div>
+    <div class="score">
+      {{playerScore}}
+    </div>
+    <div class="car-container">
+      <div [ngClass]="this.moveCar === 0 ? 'car' : 'car move'">
+        ️️🏎️
+      </div>
+    </div>
+    <div class="highScore">
+      High Score : {{highScore}}
+    </div>
+  </div>
+</ion-content>

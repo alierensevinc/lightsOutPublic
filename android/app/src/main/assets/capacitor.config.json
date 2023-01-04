@@ -1,0 +1,13 @@
+{
+  "appId": "com.alierensevinc.lightsout",
+  "appName": "lightsOut",
+  "bundledWebRuntime": false,
+  "npmClient": "npm",
+  "webDir": "www",
+  "plugins": {
+    "SplashScreen": {
+      "launchShowDuration": 0
+    }
+  },
+  "cordova": {}
+}
